@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         final TextView text = findViewById(R.id.text1);
         Button button = findViewById(R.id.knopa);
         final EditText vasia = findViewById(R.id.editText3);
+        Button touch = findViewById(R.id.touch);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,5 +28,11 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        touch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int
+            }
+        }) ;
     }
 }
