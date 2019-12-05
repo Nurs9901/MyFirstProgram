@@ -13,12 +13,13 @@
         android:id="@+id/textView"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="40dp"
         android:textSize="20sp"
         android:text="@string/MyLogo"
         android:gravity="center"/>
 
     <ImageView
+        android:id="@+id/image"
         android:layout_width="fill_parent"
         android:layout_height="197dp"
         android:src="@drawable/file1" />
@@ -53,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="CHANGE IMAGE" />
+        android:textSize="10dp"
+        android:text="change image" />
 
 </LinearLayout>
